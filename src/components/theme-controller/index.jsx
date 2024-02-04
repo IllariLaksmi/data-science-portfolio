@@ -1,4 +1,4 @@
-
+import React from 'react';
 const ThemeController = () => {
     return (<div className="flex flex-col ms-3">
                 <label className="mb-2">Theme</label>

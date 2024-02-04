@@ -1,11 +1,10 @@
 import React from "react";
 import Title from "../../components/title";
 import Menu from "../../components/menu";
-import { useTranslation, Trans } from 'react-i18next';
+import {  Trans } from 'react-i18next';
 import ProjectSearch from "../../components/projects/search";
 
 const MainPage = () => {
-    const { t } = useTranslation();
 
     return (<>
     <div className="flex w-100 h-full">
