@@ -12,7 +12,7 @@ import MainPage from './pages/main/index.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "./",
+    path: "/data-science-portfolio/",
     element: <MainPage />,
     errorElement: <ErrorPage />,
   },
