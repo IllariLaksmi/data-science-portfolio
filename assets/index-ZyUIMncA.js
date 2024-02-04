@@ -69,4 +69,4 @@ Error generating stack: `+o.message+`
             Certified as an AWS Cloud Practitioner by AWS. Big Data - AI by Keep Coding.<br/>
             I am known for my communication skills, good sense of humor, and growth mindset.`}}},es:{translation:{main:{description:`Junior Data Scientist con experiencia como software developer.<br/>
             Certificada como AWS Cloud Practitioner por AWS. Big Data -IA por Keep Coding.<br/>
-            Destaco por mi comunicación, sentido del humor y mentalidad de crecimiento.`}}}}});const e0=wv([{path:"./",element:M.jsx(py,{}),errorElement:M.jsx(Tv,{})}]);Fl.createRoot(document.getElementById("root")).render(M.jsx(Wc.StrictMode,{children:M.jsx(Rv,{router:e0})}));
+            Destaco por mi comunicación, sentido del humor y mentalidad de crecimiento.`}}}}});const e0=wv([{path:"/data-science-portfolio/",element:M.jsx(py,{}),errorElement:M.jsx(Tv,{})}]);Fl.createRoot(document.getElementById("root")).render(M.jsx(Wc.StrictMode,{children:M.jsx(Rv,{router:e0})}));
