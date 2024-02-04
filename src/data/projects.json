@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Project 1",
+        "technologies": ["SQL", "Python", "Tableau"],
+        "image": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHB5dGhvbnxlbnwwfHx8fDE2Mzc2ODgxNDI&ixlib=rb-1.2.1&q=80&w=2000"
+    },
+    {
+        "title": "Project 2",
+        "technologies": ["SQL", "Python", "Tableau"],
+        "image": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHB5dGhvbnxlbnwwfHx8fDE2Mzc2ODgxNDI&ixlib=rb-1.2.1&q=80&w=2000"
+    },
+    {
+        "title": "Project 3",
+        "technologies": ["SQL", "Python", "Tableau"],
+        "image": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHB5dGhvbnxlbnwwfHx8fDE2Mzc2ODgxNDI&ixlib=rb-1.2.1&q=80&w=2000"
+    },
+    {
+        "title": "Project 4",
+        "technologies": ["SQL", "Python", "Tableau"],
+        "image": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHB5dGhvbnxlbnwwfHx8fDE2Mzc2ODgxNDI&ixlib=rb-1.2.1&q=80&w=2000"
+    }
+]
