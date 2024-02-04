@@ -12,7 +12,7 @@ import MainPage from './pages/main/index.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "./",
     element: <MainPage />,
     errorElement: <ErrorPage />,
   },
