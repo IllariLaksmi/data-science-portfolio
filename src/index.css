@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
 .title-component h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
@@ -63,7 +68,7 @@
 
 @media(max-width:767px) {
     .title-component h1 {
-        font-size: 30px;
+        font-size: 24px;
     }
     
     .title-component h3 {
@@ -75,18 +80,58 @@
         left: 0px;
     }
     .title-component .title-cloud-image {
-        display: none;
+        left: 0;
+        height: 70px;
     }
     .title-component .title-line-graphic-image {
-        display: none;
+        height: 70px;
     }
     
     .title-component .title-laptop-image {
-        display: none;
+        left:0;
+        height: 70px;
+        width: 70px;
+        bottom: 0px;
     }
     
     .title-component .title-bar-graphic-image {
-        display: none;
+        height: 70px;
+        left: 0px;
+        bottom: -10px;
+    }
+}
+@media(max-width:454px) {
+
+    .title-component h1 {
+        font-size: 16px;
+    }
+    
+    .title-component h3 {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .title-component .title-illari-image {
+        left: 0px;
+    }
+    .title-component .title-cloud-image {
+        left: 0;
+        height: 40px;
+    }
+    .title-component .title-line-graphic-image {
+        height: 40px;
+    }
+    
+    .title-component .title-laptop-image {
+        left:0;
+        height: 40px;
+        width: 40px;
+        bottom: 0px;
+    }
+    
+    .title-component .title-bar-graphic-image {
+        height: 40px;
+        left: 0px;
+        bottom: -10px;
     }
 }
 

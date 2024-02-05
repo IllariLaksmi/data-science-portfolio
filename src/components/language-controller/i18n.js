@@ -20,19 +20,43 @@ i18n
     resources: {
       en: {
         translation: {
+          title: {
+            part1:`Hey! I'm Illari, check my`,
+            part2:`Data Science <br /> Portfolio`,
+          },
           main: {
-            description: `Junior Data Scientist with experience as a Software Developer.<br/>
-            Certified as an AWS Cloud Practitioner by AWS. Big Data - AI by Keep Coding.<br/>
-            I am known for my communication skills, good sense of humor, and growth mindset.`,
+            description: `Junior Data Scientist with experience as a Software Developer.<br/> Me encanta la música, los retos y aprender.`,
+          },
+          language: {
+            label: `Language`
+          },
+          theme: {
+            label: `Theme`
+          },
+          error: {
+            title: `Oops!`,
+            description: `Sorry, an unexpected error has occurred.`
           }
         }
       },
       es: {
         translation: {
+          title: {
+            part1:`Hey! Soy Illari, este es mi`,
+            part2:`Portafolio de <br /> Data Science`,
+          },
           main: {
-            description: `Junior Data Scientist con experiencia como software developer.<br/>
-            Certificada como AWS Cloud Practitioner por AWS. Big Data -IA por Keep Coding.<br/>
-            Destaco por mi comunicación, sentido del humor y mentalidad de crecimiento.`,
+            description: `Junior Data Scientist with experience as a Software Developer.<br/><br/> Love music, challenges and learning.`,
+          },
+          language: {
+            label: `Idioma`
+          },
+          theme: {
+            label: `Tema`
+          },
+          error: {
+            title: `Ups!`,
+            description: `Lo siento, un error imprevisto acaba de suceder`
           }
         }
       }

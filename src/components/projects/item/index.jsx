@@ -4,7 +4,7 @@ import React from "react";
 const ProjectItem = ({ data }) => {
     const {title, technologies, image} = data;
     return (<>
-                <div className="card w-56 bg-secondary">
+                <div className="card bg-secondary">
                     <div className="card-body">
                         <h2 className="card-title text-secondary-content">{title}</h2>
                         <div className="card-actions justify-end">

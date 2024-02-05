@@ -4,15 +4,17 @@ import cloud from "../../assets/portfolio-cloud.png";
 import lineGraphic from "../../assets/portfolio-graphic.png";
 import laptop from "../../assets/portfolio-laptop.png";
 import barGraphic from "../../assets/portfolio-bar-graphic.png";
+import { Trans } from "react-i18next";
+
 
 const Title = () => {
-    return (<div className="title-component w-100 flex justify-center">
-                <div className="w-100 bg-primary text-primary-content mt-10 ps-4 pt-4 pe-7">
-                    <div className="flex flex-col md:flex-row  mt-2 justify-center items-center ">
-                        <img src={illari} className="w-50 title-illari-image"></img>
+    return (<div className="title-component w-100  flex justify-center mb-14 ">
+                <div className="w-100  bg-primary text-primary-content md:mt-10 ps-4 pt-4 pe-7">
+                    <div className="flex flex-row  mt-2 justify-center items-center ">
+                        <img src={illari} className=" w-28 md:w-50 title-illari-image"></img>
                         <div className="ms-2 flex-col">
-                            <h3>Hey! I'm Illari, check my</h3>
-                            <h1>Data Science <br /> Portfolio</h1>
+                            <h3> <Trans i18nKey="title.part1">Hey! I'm Illari, check my</Trans></h3>
+                            <h1> <Trans i18nKey="title.part2">Data Science <br /> Portfolio</Trans></h1>
                         </div>
                     </div>
                     <div className="flex justify-between h-10">
