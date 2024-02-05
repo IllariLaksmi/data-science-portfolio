@@ -25,7 +25,7 @@ i18n
             part2:`Data Science <br /> Portfolio`,
           },
           main: {
-            description: `Junior Data Scientist with experience as a Software Developer.<br/> Me encanta la música, los retos y aprender.`,
+            description: `Junior Data Scientist with experience as a Software Developer.<br/> <br/>Love music, challenges and learning.`,
           },
           language: {
             label: `Language`
@@ -46,7 +46,7 @@ i18n
             part2:`Portafolio de <br /> Data Science`,
           },
           main: {
-            description: `Junior Data Scientist with experience as a Software Developer.<br/><br/> Love music, challenges and learning.`,
+            description: `Junior Data Scientist con experiencia como Software Developer.<br/><br/> Me encanta la música, los retos y aprender.`,
           },
           language: {
             label: `Idioma`
