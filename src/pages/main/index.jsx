@@ -9,7 +9,7 @@ const MainPage = () => {
     return (<>
         <div className="flex flex-col-reverse md:flex-row w-full  h-full">
             <Menu />
-            <div className="flex flex-col md:w-5/6 h-3/4  flex-8  m-auto overflow-y-scroll ">
+            <div className="flex flex-col md:w-5/6 h-3/4  flex-8  m-auto overflow-y-scroll scrollbar-hide ">
                 <Title />
                 <ProjectSearch />
             </div>
