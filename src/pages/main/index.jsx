@@ -7,12 +7,10 @@ import ProjectSearch from "../../components/projects/search";
 const MainPage = () => {
 
     return (<>
-        <div className="flex flex-col-reverse md:flex-row w-full  h-full">
+        <div className="flex flex-col  w-full  h-full">
             <Menu />
-            <div className="flex flex-col md:w-5/6 h-3/4  flex-8  m-auto overflow-y-scroll scrollbar-hide ">
-                <Title />
-                <ProjectSearch />
-            </div>
+            <Title />
+            <ProjectSearch />
         </div>
 
     </>)

@@ -1,0 +1,14 @@
+[
+    {
+        "title": "ULatinHack",
+        "technologies": ["Angular", "Typescript", "Material", "CSS"],
+        "link":"https://ulatinhack.io/",
+        "image": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHB5dGhvbnxlbnwwfHx8fDE2Mzc2ODgxNDI&ixlib=rb-1.2.1&q=80&w=2000"
+    },
+    {
+        "title": "Zen for change",
+        "technologies": ["React", "Javascript", "CSS"],
+        "link":"https://zen-for-change-dc625.web.app/",
+        "image": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fHB5dGhvbnxlbnwwfHx8fDE2Mzc2ODgxNDI&ixlib=rb-1.2.1&q=80&w=2000"
+    }
+]

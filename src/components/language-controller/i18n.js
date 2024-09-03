@@ -21,11 +21,11 @@ i18n
       en: {
         translation: {
           title: {
-            part1:`Hey! I'm Illari, check my`,
-            part2:`Data Science <br /> Portfolio`,
+            part1:`Hey! Welcome to Illari's Portfolio`,
+     
           },
           main: {
-            description: `Junior Data Scientist with experience as a Software Developer.<br/> <br/>Love music, challenges and learning.`,
+            description: `Software developer, data and learning enthusiast.<br/> My experience centers on web development.`,
           },
           language: {
             label: `Language`
@@ -42,11 +42,11 @@ i18n
       es: {
         translation: {
           title: {
-            part1:`Hey! Soy Illari, este es mi`,
-            part2:`Portafolio de <br /> Data Science`,
+            part1:`Hola! Soy Illari, este es mi portafolio`,
+          
           },
           main: {
-            description: `Junior Data Scientist con experiencia como Software Developer.<br/><br/> Me encanta la música, los retos y aprender.`,
+            description: `Software developer, entusiasta de los datos y aprender.<br/> Mi experiencia se centra en el desarrollo web. `,
           },
           language: {
             label: `Idioma`

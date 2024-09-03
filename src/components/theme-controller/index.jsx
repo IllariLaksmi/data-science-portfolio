@@ -26,8 +26,8 @@ const ThemeController = () => {
         localStorage.setItem("theme", e.target.checked ? themeValue() : themeValue(true))
     }
 
-    return (<div className="flex flex-col ms-3">
-        <label className="mb-2"><Trans i18nKey="theme.label"> Theme </Trans></label>
+    return (<div className="flex flex-row m-2">
+        <label className="me-2"><Trans i18nKey="theme.label"> Theme </Trans></label>
         <input type="checkbox" value={themeValue()} className="toggle theme-controller" onChange={(e) => { setThemeValue(e) }} />
     </div>)
 }
