@@ -1,23 +1,19 @@
 import React from "react";
+import { useTranslation, Trans } from 'react-i18next';
 
-
-const TalkItem = ({ data }) => {
-    const {title, subtitle, text, img} = data;
+const TalkItem = ({ index }) => {
     return (<>
-               <div className="card card-side bg-base-100 shadow-xl">
-             
-                <div className="card-body">
-                    <h2 className="card-title">{title}</h2>
-                    <p>Recursos y playlist!</p>
-
-                    <hr/>
-                    <p>Mentalidad de Crecimiento: Carol Dweck</p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_X0mgOOSpLU?si=zXTx7E8IlcnKe-PQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-               
-                    <hr/>
-                    <p>Playlist</p>
-                    <iframe style={{"border-radius":"12px"}} src="https://open.spotify.com/embed/playlist/6wsGpSQZxcy7foSrRYPlLD?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
+                <div className="card card-border w-100">
+                    <div className="card-body">
+                        <h2 className="card-title"> <Trans i18nKey={"sections.talks.items."+ index +".title"}> Title </Trans></h2>
+                        <p><Trans i18nKey={"sections.talks.items."+ index +".description"}> Description </Trans></p>
+                        {}
+                        <br/>
+                        <div className="flex justify-center">
+                            {String(index) === "0" ? <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7303753218814021632?collapsed=1" height="685" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe> : <></>}
+                            {String(index) === "1" ? <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7300511266211532823?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe> : <></>}
+                        </div>
+                    </div>
                 </div>
             </>)
 }
